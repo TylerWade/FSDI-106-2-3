@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <!-- link styles -->
+    <link href="styles/bootstrap.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="main-content">
+            <!-- this div helps to center the header !-->
+            <div class="bar">
+                <a href="index.html"><img src="imgs/logo.png" width="200px"></a>
+                <h1>Online Store 22!!</h1>
+                <img src="imgs/logo2.jpg" id="walk" width="400px">
+            </div>
+
+        </div>
+        <div id="info"></div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="admin.html">Register Product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid">
+
+        <!-- Search panel -->
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 search-container">
+                <label>Filter catalog</label>
+                <input id="txtSearch" placeholder="Search by text" type="text">
+                <button class="btn btn-sm btn-primary" id="btnSearch">Search</button>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+        <div class="row">
+            <!-- catalog area -->
+            <div class="col-md-9" id="catalog">
+
+            </div>
+
+            <!-- Categories -->
+            <div class="col-md-3" class="categories">
+                <h4>Categories</h4>
+                <ul class="list-group" id="catList">
+                </ul>
+                <br>
+                <label> Items</label>
+                <input type="text" id="txtCartItems">
+                <br>
+                <label>Total $</label>
+                <input type="text" id="txtCartItems">
+                <br>
+                <button class="btn btn-primary">Save Order</button>
+            </div>
+            <div class="col-md-3" class="cart-info">
+                
+            </div>
+        </div>
+
+        <form>
+            <input type="submit" value="send">
+        </form>
+    </div>
+
+    <!-- link scripts -->
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/store1.js"></script>
+</body>
+
+</html>

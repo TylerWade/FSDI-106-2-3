@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Page - Register Prodcuts</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/admin.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="main-content">
+            <!-- this div helps to center the header !-->
+            <div class="bar">
+                <a href="index.html"><img src="imgs/logo.png" width="200px"></a>
+                <h1>Online Store 22!!</h1>
+                <img src="imgs/logo2.jpg" id="walk" width="400px">
+            </div>
+
+        </div>
+        <div id="info"></div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="admin.html" class="active">Register Product</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <div class="capture">
+        <h1>Register new product</h1>
+        <label>Title</label>
+        <input type="text" id="txtTitle">
+        <button onclick="document.getElementById('txtTitle').value = ''" class="btn-danger">Clear field</button>
+        <br>
+        <label for="">Description</label>
+        <input type="text" id="txtDescription">
+        <button onclick="document.getElementById('txtDescription').value = ''" class="btn-danger">Clear field</button>
+        <br>
+        <label for="">Price</label>
+        <input type="text" id="txtPrice">
+        <button onclick="document.getElementById('txtPrice').value = ''" class="btn-danger">Clear field</button>
+        <br>
+        <label for="">Category</label>
+        <input type="text" id="txtCategory">
+        <button onclick="document.getElementById('txtCategory').value = ''" class="btn-danger">Clear field</button>
+        <br>
+        <label for="">Image url:</label>
+        <input type="text" id="txtImage">
+        <button onclick="document.getElementById('txtImage').value = ''" class="btn-danger">Clear field</button>
+        <br>
+        <input type="button" value="Register" id="btnSave" class="btn btn-primary">
+        
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/admin.js"></script>
+</body>
+
+</html>

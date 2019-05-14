@@ -1,0 +1,83 @@
+/*header*/
+.main-content {
+    max-width: 120rem;
+    margin-right: 15%;
+    margin-left: 15%;
+    border-width: 100%;
+}
+
+.site-header {
+    background-image: url(imgs/123.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    min-height: 20rem;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+/*nav bar */
+nav {
+    width: 100%;
+    height: 50px;
+    background: #2f3649;
+    border-top: 1px solid rgba(255, 255, 255..7);
+    border-bottom: 1px solid rgba(255, 255, 255..7);
+    top: 0px;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    float: right;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background: #f00606;
+}
+
+nav ul li a.active {
+    background: #f00606;
+}
+
+/*end nav*/
+
+h1 {
+    color: rgb(10, 10, 10);
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+label,
+input {
+    margin: 5px;
+    font-size: 30px;
+}
+
+.capture {
+    text-align: center;
+    outline: #2f3649 solid 1px;
+    margin: 100px 30%;
+}
